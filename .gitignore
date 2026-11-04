@@ -1,0 +1,25 @@
+# Dependencies and package-manager caches
+node_modules/
+.npm-cache/
+
+# Vite build output
+dist/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Nested local workspaces (not part of this lab)
+ML VLAB/
+ML-VLAB-KNN/
